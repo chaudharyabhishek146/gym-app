@@ -24,7 +24,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
     };
 
     fetchExercisesData();
-  }, [bodyPart]);
+  }, [bodyPart])  // eslint-disable-line react-hooks/exhaustive-deps
 
   // Pagination
   const indexOfLastExercise = currentPage * exercisesPerPage;

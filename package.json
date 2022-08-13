@@ -55,8 +55,10 @@
     ]
   },
   "main": "index.js",
-  "devDependencies": {},
   "author": "Abhishek Chaudhary",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  }
 }
